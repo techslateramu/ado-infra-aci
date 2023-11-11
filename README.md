@@ -5,7 +5,7 @@ To be updated
 
 # Pre-requisites
  - Make sure to create a storage account, since we store terraform statefile into storage account
- - Whatever the storage account details, please store them into these global variables
+ - Whatever the storage account details, please store them into these pipeline variables ( either pipeline varialbes or group varialbe)
  
  * tf_state_rg_name
  * tf_state_rg_name
