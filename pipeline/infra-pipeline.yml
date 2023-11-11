@@ -42,3 +42,18 @@ stages:
         ARM_TENANT_ID: $(ARM_TENANT_ID)
         ARM_CLIENT_ID: $(ARM_CLIENT_ID)
         ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
+
+
+
+
+# Varaibles 
+# -var="ARM_CLIENT_ID=$(ARM_CLIENT_ID)" 
+# -var="ARM_CLIENT_SECRET=$(ARM_CLIENT_SECRET)"
+# -var="ARM_TENANT_ID=$(ARM_TENANT_ID)" 
+# -var="ARM_SUBSCRIPTION_ID=$(ARM_SUBSCRIPTION_ID)" 
+# -backend-config="tenant_id=$(tf_state_tenant_id)" 
+# -backend-config="subscription_id=$(tf_state_subscription_id)" 
+# -backend-config="resource_group_name=$(tf_state_rg_name)" 
+# -backend-config="storage_account_name=$(tf_state_st_acc_name)" 
+# -backend-config="container_name=tfstate-files" 
+# -backend-config="key=$(Build.Repository.Name).dev.tfstate" '
