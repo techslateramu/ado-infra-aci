@@ -22,8 +22,6 @@
  * tf_state_subscription_id
  * tf_state_tenant_id
 
-![Sample Example](./img/storage.png)
-
 # Folder Structure
 - Modules - which contains modules of terraform
 - Pipeline - this folder contains pipeline
