@@ -5,8 +5,9 @@
 - Make sure to follow pre-requisites to create stroage account
 
 # Pre-requisites
- - Make sure to create a storage account, since we store terraform statefile into storage account.
- - Whatever the storage account details, please store them into these as group variables.
+ - Create Service Prinicipal and make sure to have contributor access to it
+ - Create a storage account, since we store terraform statefile into storage account.
+ - Service prinical details and storage account details, store them into these as group variables.
  - Create a group variable called 'common' and have all the below varialbes stored there
 
   ![Common](./img/common.png)
