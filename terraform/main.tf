@@ -17,5 +17,6 @@ module "container_instance" {
   sub_project                                 = var.sub_project
   tags                                        = merge(var.tags, var.specific_tags)
   resource_group_name                         = module.resource_group.name
+  container_image                             = var.container_image
 }
 
