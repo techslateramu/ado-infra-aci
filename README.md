@@ -18,7 +18,7 @@
  * ARM_SUBSCRIPTION_ID
 
  * tf_state_rg_name
- * tf_state_rg_name
+ * tf_state_st_acc_name
  * tf_state_st_cont_name
  * tf_state_subscription_id
  * tf_state_tenant_id
