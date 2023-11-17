@@ -2,7 +2,7 @@
 
 - This project contains few terraform resources ( for ex: resource group and container instance )
 - There is ADO pipeline written ( use Azure DevOps to run Pipeline)
-- Make sure to follow pre-requisites to create stroage account
+- Make sure to follow pre-requisites to create stroage account and service principal
 
 # Pre-requisites
  - Create Service Prinicipal and make sure to have contributor access to it
