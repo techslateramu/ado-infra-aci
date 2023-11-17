@@ -5,10 +5,11 @@
 - Make sure to follow pre-requisites to create stroage account and service principal
 
 # Pre-requisites
- - Create Service Prinicipal and make sure to have contributor access to it
+ - Create Service Prinicipal
+ - Add all the details to 'common' group varialbe in ADO
+ - Give contributor access to Service Principal
  - Create a storage account, since we store terraform statefile into storage account.
- - Service prinical details and storage account details, store them into these as group variables.
- - Create a group variable called 'common' and have all the below varialbes stored there
+ - Storage account details, store them into 'COMMON' group variable.
 
   ![Common](./img/common.png)
 
